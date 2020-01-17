@@ -7,20 +7,20 @@ module.exports={
 
     entry:'./src/main.js' ,
     output :{
-        path: path.join(__dirname,"dist"),
+        path: path.join(__dirname,"../dist"),
         filename:"js/app.js",
        
     },
-    mode: "development" ,
-    devServer:{
-        port:4000,
-        hot:true,
-        open:true, 
-        historyApiFallback:{     //不加上无法在浏览器输入地址跳转
-          index:'/public/index.html'   
-      }
+    // mode: "development" ,
+    // devServer:{
+    //     port:4000,
+    //     hot:true,
+    //     open:true, 
+    //     historyApiFallback:{     //不加上无法在浏览器输入地址跳转
+    //       index:'/public/index.html'   
+    //   }
     
-    },
+    // },
     module: { //这里用来存放转换器的配置
         rules: [
           // {} //每一个对象就是一个转换器的配置

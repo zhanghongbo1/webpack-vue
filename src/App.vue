@@ -8,8 +8,17 @@
 </template>
 
 <script>
+
+import {api } from '../assets/api'
 export default {
-    
+    data() {
+        return {
+           
+        }
+    },
+    mounted() {
+        console.log(api)
+    },
 }
 </script>
 
