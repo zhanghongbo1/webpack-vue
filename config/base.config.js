@@ -56,7 +56,8 @@ module.exports={
             hash:true,//防止缓存,会给文件后面加入hash
             minify:{
                 removeAttributeQuotes:true//压缩 去掉引号
-            }
+            },
+            favicon: path.join(__dirname,"../public/favicon.ico")
         }),
         new VueLoaderPlugin()
      

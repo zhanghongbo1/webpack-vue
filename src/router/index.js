@@ -19,8 +19,8 @@ const routes=[
 
 
 const router = new VueRouter({
-    mode: 'history',
-    base: "/",
+    // mode: 'history',
+    // base: "/",
     routes
 })
 
